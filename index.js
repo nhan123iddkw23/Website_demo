@@ -1,4 +1,4 @@
-const broker = 'ws://broker.hivemq.com:8000/mqtt';
+const broker = 'wss://broker.hivemq.com:8884/mqtt';
 const topicSub = 'control/test1'; // Topic ESP32 gửi lên
 const topicPub = 'control/device'; // Topic gửi lệnh xuống ESP32
 
